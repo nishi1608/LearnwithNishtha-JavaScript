@@ -17,6 +17,9 @@ console.log("1. Using Single Quotes");
 let userName='Nishtha';
 console.log("User name is "+userName);// User name is Nishtha
 console.log(typeof(userName));  //string
+let gender='F';
+console.log("Gender is "+gender); 
+console.log(typeof gender);//a letter inside single quotes considered as a string instead of character, that is why its type is string
 console.log("2. Using Double Quotes");
 let surName='Jain';
 console.log("User's  surname is "+surName);// User's surname is Jain
