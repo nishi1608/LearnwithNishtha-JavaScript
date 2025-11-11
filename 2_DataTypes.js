@@ -2,7 +2,7 @@
 These types define how values are stored, accessed, and manipulated in your code.*/
 
 //1.Number
-console.log("-----------Number----------");
+console.log("-----------String----------");
 console.log("JavaScript has 8 main data types, divided into primitive and non-primitive categories.");
 console.log("Primitive data type : 1. Number");
 let num=1;
@@ -17,9 +17,6 @@ console.log("1. Using Single Quotes");
 let userName='Nishtha';
 console.log("User name is "+userName);// User name is Nishtha
 console.log(typeof(userName));  //string
-let gender='F';
-console.log("Gender is "+gender); 
-console.log(typeof gender);//a letter inside single quotes considered as a string instead of character, that is why its type is string
 console.log("2. Using Double Quotes");
 let surName='Jain';
 console.log("User's  surname is "+surName);// User's surname is Jain
